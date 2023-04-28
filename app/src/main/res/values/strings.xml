@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="temp_sym">℃</string>
+    <string name="pressure_sym">hPa</string>
+    <string name="humidity_sym">%</string>
+    <string name="feels_sym">°</string>
+    <string name="wind_sym">km/h</string>
+    <string name="text_pressure">Pressure</string>
+    <string name="text_wind">Wind</string>
+    <string name="text_humidity">Humidity</string>
+    <string name="feels">Feels</string>
+</resources>
