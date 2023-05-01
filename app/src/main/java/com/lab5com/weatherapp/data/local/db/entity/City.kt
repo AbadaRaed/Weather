@@ -13,12 +13,12 @@ data class City(
     val id: Int,
     val time: String,
     val name: String?,
-    val temperature: Double,
+    val temperature: Int,
     val icon: String,
     val description: String,
     val humidity: Int,
     val pressure: Int,
     val wind: Double,
-    val feelsLike: Double
+    val feelsLike: Int
 ) : Parcelable
 

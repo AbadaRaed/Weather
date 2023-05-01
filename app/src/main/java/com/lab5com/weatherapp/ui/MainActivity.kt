@@ -24,6 +24,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.text.SimpleDateFormat
 import java.util.Locale
+import kotlin.math.roundToInt
 
 class MainActivity : AppCompatActivity() {
     private val TAG = "MainActivity"
@@ -97,13 +98,13 @@ class MainActivity : AppCompatActivity() {
                         0,
                         time,
                         name,
-                        temp,
+                        temp.roundToInt(),
                         icon,
                         description,
                         humidity,
                         pressure,
                         wind,
-                        feelsLike
+                        feelsLike.roundToInt()
                     )
                     withContext(Dispatchers.Main)
                     {
