@@ -67,7 +67,7 @@ This app uses [***MVVM (Model View View-Model)***](https://developer.android.com
 ## License
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-Copyright (c) 2020 Raed Abada
+Copyright (c) 2023 Raed Abada
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
