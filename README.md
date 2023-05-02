@@ -1,19 +1,9 @@
 
 # Weather App
 
-Creating a Weather Application using Open Weathermap API.
+Weather app using OpenWeatherMap API with kotlin
 
-The application will be divided into 2 modules :
-
-### Component part (Library)
-
-Retrieves weather information from an API
-
-### A UI part (Application)
-
-Displays the information obtained from the component
-
-#### The application will consist of 3 screens:
+#### The application includes:
 
 - A view for adding a city
 
@@ -62,7 +52,12 @@ API keys is very secure data we can not publish it
 
 #### IDE
 
-- Android Studio
+Android Studio Flamingo | 2022.2.1
+
+| Google places search | Screen 1 | Screen 2 |
+| --------------- | ---------------- | ---------------- | 
+| <img src="1.png" height="480"> | <img src="2.png" height="480"> | <img src="3.png" height="480"> |
+
 ## Architecture
 This app uses [***MVVM (Model View View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch) architecture.
 
